@@ -1,0 +1,163 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #3ddb35;
+    color: #121b20;
+}
+#highlight-title {
+    font-size: 36px;
+    color: #eaecf7;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+#highlight-title:hover {
+    color: #1bd644; 
+    text-shadow: 0 0 5px rgba(227, 240, 235, 0.91); 
+}
+
+#highlight-title {
+    font-size: 36px;
+    color: #fafcef;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+#highlight-title:hover {
+    color: #061a63;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#flashing-text {
+    font-size: 24px;
+    animation: colorChange 5s infinite; /* Configura la animación de cambio de color */
+}
+
+@keyframes colorChange {
+    0% {
+        color: #d9f82e; 
+    }
+    25% {
+        color: #27e627; 
+    }
+    50% {
+        color: #fa4db8; 
+    }
+    75% {
+        color: #FF00FF; 
+    }
+    100% {
+        color: #ffb651;
+    }
+}
+
+
+h3 {
+    margin:0;
+    text-align: center;
+    color: #081976;
+}
+ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+header {
+    display:block;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    background-color: #070a8d;
+    color:#fff;
+    border-radius: 5px;
+}
+.profile-picture {
+    margin-right: 20px;
+}
+.profile-picture img {
+    width:150px;
+    height:160px;
+    border-radius: 50%;
+}
+.header-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.header-text h2 {
+    font-size: 18px;
+}
+section {
+    padding:20px;
+    margin-bottom:30px;
+    background-color: #f9f9f9;
+}
+section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    section p {
+        margin-bottom: 0;
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    #skills ul {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:10px;
+
+    }
+    #experience ul {
+        padding-left: 20px;
+    }
+    #experience li {
+        margin-bottom: 10px;
+    }
+    #experience li strong {
+        font-size: 18px;
+    }
+    #experience li p {
+        margin-top: 5px;
+    }
+    footer {
+        padding:20px;
+        text-align: center;
+        background-color: #070a8d;
+        color:#fff;
+        border-radius: 5px;
+    }
+    
+
+    @media (max-width: 768px) {
+        header {
+            padding: 10px;
+        }
+    
+        .profile-picture img {
+            width: 100px;
+            height: 100px;
+        }
+    
+        .header-text h1 {
+            font-size: 24px;
+        }
+    
+        .header-text h2 {
+            font-size: 16px;
+        }
+    
+        section {
+            padding: 20px;
+        }
+    
+        section h3 {
+            font-size: 18px;
+        }
+    
+        section p {
+            font-size: 14px;
+        }
+    }
+    
+    
+    @media (min-width: 769px) and (max-width: 1024px) {
+        
+    }
