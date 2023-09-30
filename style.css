@@ -7,13 +7,13 @@ body {
 }
 #highlight-title {
     font-size: 36px;
-    color: #eaecf7;
+    color: hsl(233, 81%, 4%);
     transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 #highlight-title:hover {
     color: #1bd644; 
-    text-shadow: 0 0 5px rgba(227, 240, 235, 0.91); 
+    text-shadow: 0 0 5px rgba(224, 252, 14, 0.91); 
 }
 
 #highlight-title {
@@ -24,7 +24,7 @@ body {
 
 #highlight-title:hover {
     color: #061a63;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 0 10px rgba(207, 238, 8, 0.897);
 }
 
 #flashing-text {
@@ -161,3 +161,23 @@ section h3 {
     @media (min-width: 769px) and (max-width: 1024px) {
         
     }
+
+
+    .github-link {
+        text-align: center; 
+        font-size: 20px; 
+        font-weight: bold; 
+        text-decoration: none; 
+        color: #ea15a3; 
+        background-color: #0a56a7; 
+        padding: 10px 20px; 
+        border-radius: 5px; 
+        display: inline-block; 
+        transition: background-color 0.3s, color 0.3s; 
+      }
+      
+      .github-link:hover {
+        background-color: #0cf96f; 
+        color: #fff; 
+      }
+      
