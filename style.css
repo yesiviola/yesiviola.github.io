@@ -61,6 +61,11 @@ ul {
     margin:0;
     list-style:none;
 }
+ .header-curriculum{
+    padding:60px;
+    margin-bottom: 30px;
+    display: flex;
+ }
 header {
     display:block;
     align-items: center;
@@ -118,8 +123,9 @@ section h3 {
         margin-top: 5px;
     }
     footer {
-        padding:20px;
+        padding:50px;
         text-align: center;
+        font-size: 24px;
         background-color: #070a8d;
         color:#fff;
         border-radius: 8px;
